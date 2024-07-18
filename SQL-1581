@@ -16,6 +16,8 @@ Table: Visits
 | visit_id    | int     |
 | customer_id | int     |
 +-------------+---------+
+
+Solution
 */
 
 Select v.customer_id as customer_id, count(v.visit_id) as count_no_trans
